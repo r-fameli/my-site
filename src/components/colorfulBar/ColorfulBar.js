@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import ColoredBox from './ColoredBox';
+import '../../css/ColorfulBar.css'
 
 class ColorfulBar extends Component {
     constructor(props) {
@@ -10,7 +11,7 @@ class ColorfulBar extends Component {
     }
     render() {
         return (
-            <div className="colorful-bar">
+            <div className="ColorfulBar">
                 {this.state.sections.map(section => 
                     <ColoredBox text={section.text} color={section.color} />  
                 )}        

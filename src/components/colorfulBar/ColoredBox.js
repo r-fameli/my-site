@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import '../../css/ColorfulBar.css'
 
 class ColoredBox extends Component {
     constructor(props) {
@@ -11,7 +12,7 @@ class ColoredBox extends Component {
 
     render() {
         return (
-            <div className="colored-box centered" style={{background: this.state.color}}>
+            <div className="ColoredBox" style={{background: this.state.color}}>
                 <text>{this.state.text}</text>
             </div>
         )

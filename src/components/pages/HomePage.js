@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import About from '../homePageSections/About';
+import AboutSection from '../homePageSections/About';
 import ExperienceSection from '../homePageSections/Experience';
 import ProjectsSection from '../homePageSections/Projects';
 import SkillsSection from '../homePageSections/Skills';
