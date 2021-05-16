@@ -3,13 +3,17 @@ import AboutSection from '../homePageSections/About';
 import ExperienceSection from '../homePageSections/Experience';
 import ProjectsSection from '../homePageSections/Projects';
 import SkillsSection from '../homePageSections/Skills';
-import SectionContainer from '../homePage/SectionContainer';
+import StartSection from '../homePageSections/Start';
+import '../../css/HomePage.css'
 
 function HomePage() {
-  const [count, setCount] = useState(0);
   return (
     <div>
-      <SectionContainer/>
+        <StartSection />
+        <AboutSection />
+        <ExperienceSection />
+        <ProjectsSection />
+        <SkillsSection />
     </div>
   );
 }

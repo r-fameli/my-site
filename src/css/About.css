@@ -1,0 +1,9 @@
+.About {
+    background-color: #FFB6B9;
+}
+
+.About-photo {
+    position: absolute;
+    height: 95vh;
+    left: 60%;
+}

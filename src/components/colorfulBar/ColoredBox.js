@@ -12,7 +12,7 @@ class ColoredBox extends Component {
 
     render() {
         return (
-            <div className="ColoredBox" style={{background: this.state.color}}>
+            <div className="ColoredBox centered" style={{background: this.state.color}}>
                 <text>{this.state.text}</text>
             </div>
         )

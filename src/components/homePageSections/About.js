@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
+import '../../css/About.css'
+import aerialphoto from '../../assets/aerial-transparent-small.png'
 
 class AboutSection extends Component {
     render() {
         return (
-            <div className={"section"}>
-                <div className={"section-block"}> 
-                    <text>Hi, my name is Riki!</text>
-                </div>
+            <div className={"About section"}>
+                <img className={"About-photo"} src={aerialphoto} />
             </div>
         )
 
