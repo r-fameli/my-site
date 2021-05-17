@@ -10,7 +10,7 @@ function HomePage() {
   return (
     <div>
         <StartSection />
-        <AboutSection />
+        {/* <AboutSection /> */}
         <ExperienceSection />
         <ProjectsSection />
         <SkillsSection />

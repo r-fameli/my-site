@@ -1,9 +1,19 @@
 .About {
     background-color: #FFB6B9;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr
 }
 
 .About-photo {
     position: absolute;
     height: 95vh;
     left: 60%;
+}
+
+.About-textbox {
+    padding:30px;
+    width:100%;
+    background-color: #FFE6E7;
+    border-radius: 50px;
+
 }

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import ColorfulBar from '../colorfulBar/ColorfulBar';
-import profile from '../../assets/profile.jpg'
+import profile from '../../assets/profile-cropped2.png'
 import '../../css/Start.css'
 
 class StartSection extends Component {
@@ -21,9 +21,11 @@ class StartSection extends Component {
         ]
         return (
             <div className={"Start section"}>
-                <ColorfulBar sections={topSections} />
+                <ColorfulBar sections={topSections} className={"Start-bar"} id={"Start-top-bar"}/>
+                <div className={"Start-fade"}/>
                 <img src={profile} id={"Start-profile"}/>
-                <ColorfulBar id={"Start-bottom-bar"} sections={bottomSections} />
+                <ColorfulBar sections={bottomSections} id={"Start-bottom-bar"} className={"Start-bar"} />
+                <div id={"Start-bottom-padding"}/>
             </div>
         )
 

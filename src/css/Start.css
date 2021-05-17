@@ -1,4 +1,36 @@
 #Start-profile {
-    width:100%;
-    margin-bottom: -10px;
+    position:relative;
+    z-index: 1;
+    margin-bottom:-10px;
+    height: 80vh;
+}
+
+.Start-fade {
+    position: absolute;
+    z-index: 2;
+    background: linear-gradient(282.47deg, #FFDDDD 47.61%, rgba(255, 236, 236, 0.604167) 53.63%, rgba(255, 255, 255, 0) 62.81%);
+    height: 80vh;
+    width: 100vw;
+    /* margin-bottom: -10px; */
+}
+
+.Start-bar {
+    /* display:block; */
+    /* position:relative; */
+    /* z-index: 3; */
+    position:sticky;
+}
+
+#Start-top-bar {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+#Start-bottom-bar {
+    position:default;
+}
+
+#Start-bottom-padding {
+    height:80px;
 }
