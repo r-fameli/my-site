@@ -8,6 +8,13 @@
 .ColoredBox {
     min-height: 100px;
     max-height: 100px;
-    font-size: 45px;
+    font-size: 225%;
 }
 
+#header-bar {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+/* TODO make this flexbox*/

@@ -1,0 +1,50 @@
+
+.SectionBox {
+    width:80%;
+    display:flex;
+    margin: 20px;
+    box-shadow: 5px 10px;
+    max-height: 260px;
+    /* display:grid; */
+    /* grid-template-columns: 30% 80%; */
+    /* column-gap: 0; */
+}
+
+.SectionBox-image {
+    max-width: 260px;
+    max-height:260px;
+}
+
+.SectionBox-text {
+    vertical-align: top;
+    text-align: center;
+    background-color: #E2B5BC;
+    /* height: 260px; */
+    width: 100%;
+}
+
+/* https://www.w3docs.com/snippets/css/how-to-align-inline-block-elements-to-top-of-the-container.html */
+
+/* 
+.SectionBox {
+    width:80%;
+    background-color:red;
+}
+
+
+.SectionBox span {
+    display:inline-block
+}
+
+.SectionBox-image {
+    width:260px;
+    height:260px;
+}
+
+.SectionBox-text {
+    vertical-align: top;
+    text-align: center;
+    background-color: #E2B5BC;
+    height: 260px;
+    width: 78.5%;
+} */

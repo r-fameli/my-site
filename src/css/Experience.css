@@ -1,3 +1,11 @@
 .Experience {
     background-color: #FAE3D9;
+    align-content: center;
+    /* margin-top:9.5vh; */
+}
+
+.Experience-box-container {
+    align-items:center;
+    display:flex;
+    flex-direction: column;
 }
