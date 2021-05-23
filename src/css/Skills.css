@@ -1,3 +1,17 @@
 .Skills {
     background-color: #8AC6D1;
+    
+}
+
+.Skills-bars-grid {
+    margin-left: 10%;
+    margin-right: 10%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 80px;
+    row-gap: 20px;
+    align-items: center;
+    position:relative;
+    align-content:space-around;
+    justify-content: space-around;
 }

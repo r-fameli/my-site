@@ -1,0 +1,32 @@
+.SkillBar {
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    /* margin: 30px; */
+}
+
+.SkillBar-bar-container {
+    height: 40px;
+    width: 100%;
+    position: relative;
+}
+
+.SkillBar-bar-container div {
+    border-radius:18px;
+    position: absolute;
+    height:100%;
+    width:100%;
+}
+
+.SkillBar-background-bar {
+    background-color: #F8F1F1;
+}
+
+.SkillBar-level-bar {
+    background-color: #EB5E0B;
+}
+
+.SkillBar-name {
+    display: block;
+    font-size: 30px;
+}

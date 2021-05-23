@@ -21,7 +21,6 @@ class StartSection extends Component {
         ]
         return (
             <div className={"Start section"}>
-
                 <div className={"Start-fade"} />
                 <img src={profile} id={"Start-profile"} />
 

@@ -3,7 +3,7 @@
     width:80%;
     display:flex;
     margin: 20px;
-    box-shadow: 5px 10px;
+    /* box-shadow: 5px 10px slategrey; */
     max-height: 260px;
     /* display:grid; */
     /* grid-template-columns: 30% 80%; */
@@ -17,10 +17,18 @@
 
 .SectionBox-text {
     vertical-align: top;
-    text-align: center;
-    background-color: #E2B5BC;
+    /* text-align: center; */
+    /* background-color: #E2B5BC; */
     /* height: 260px; */
     width: 100%;
+}
+
+.SectionBox-text h1 {
+    text-align:center;
+}
+
+.SectionBox-text ul li {
+    margin-left:20px;
 }
 
 /* https://www.w3docs.com/snippets/css/how-to-align-inline-block-elements-to-top-of-the-container.html */

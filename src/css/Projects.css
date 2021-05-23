@@ -1,3 +1,9 @@
 .Projects {
-    background-color: #95c5ba;
+    background-color: #BBDED6;
+}
+
+.Projects-box-container {
+    align-items:center;
+    display:flex;
+    flex-direction: column;
 }
