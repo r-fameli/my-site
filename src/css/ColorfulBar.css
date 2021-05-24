@@ -6,9 +6,8 @@
 }
 
 .ColoredBox {
-    min-height: 100px;
     max-height: 100px;
-    font-size: 225%;
+    font-size: 250%;
 }
 
 #header-bar {

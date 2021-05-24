@@ -11,19 +11,23 @@ class StartSection extends Component {
             { text: "projects", color: "#9FD8DF" },
             { text: "skills", color: "#93B4CC" },
             { text: "other", color: "#F5C0C0" }
-        ]
-        let bottomSections = [
+          ]
+          let bottomSections = [
             { text: "", color: "#F5C0C0" },
             { text: "", color: "#93B4CC" },
             { text: "", color: "#9FD8DF" },
             { text: "", color: "#93B4CC" },
             { text: "", color: "#F5C0C0" },
-        ]
+          ]
         return (
-            <div className={"Start section"}>
-                <div className={"Start-fade"} />
-                <img src={profile} id={"Start-profile"} />
-
+            <div className={"Start"}>
+                <ColorfulBar sections={topSections} className={"header-bar"} id={"Start-top-bar"} />
+                <div className={"Start-profile-container"}>
+                    <img src={profile} id={"Start-profile"} />
+                    <div className={"Start-fade"} />
+                    <div className={"Start-text"}></div>
+                </div>
+                <ColorfulBar sections={bottomSections} id={"footer-bar"} className={"Start-bar"} />
             </div>
         )
 

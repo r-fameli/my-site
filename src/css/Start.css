@@ -1,17 +1,25 @@
+.Start {
+    max-height:100vh;
+}
+
+.Start-profile-container {
+    position:relative;
+    height: 75vh;
+    overflow: hidden;
+}
+
 #Start-profile {
+    position:absolute;
     margin-bottom:-10px;
     height: 80vh;
     width:60vw;
+    z-index:1;
 }
 
 .Start-fade {
     position: absolute;
+    z-index:2;
     background: linear-gradient(282.47deg, #FFDDDD 47.61%, rgba(255, 236, 236, 0.604167) 53.63%, rgba(255, 255, 255, 0) 62.81%);
-    height: 79.5vh;
+    height: 80vh;
     width: 100%;
 }
-
-/* 
-#Start-bottom-padding {
-    height:80px;
-} */
