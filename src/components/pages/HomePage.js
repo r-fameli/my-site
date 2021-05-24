@@ -7,6 +7,7 @@ import SkillsSection from '../homePageSections/Skills';
 import StartSection from '../homePageSections/Start';
 import '../../css/HomePage.css'
 import '../../css/ColorfulBar.css'
+import EndSection from '../homePageSections/End';
 
 function HomePage() {
   let topSections = [
@@ -32,6 +33,7 @@ function HomePage() {
       <ExperienceSection />
       <ProjectsSection />
       <SkillsSection />
+      <EndSection />
     </div>
   );
 }
