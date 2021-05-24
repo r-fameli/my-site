@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import '../../css/Experience.css'
 import SectionHeading from '../heading/SectionHeading';
-import SectionBox from '../sectionBox/SectionBox';
+import SectionBoxWithImage from '../sectionBox/SectionBoxWithImage';
 import ccvImage from '../../assets/ccv-black-background.png'
 
 class ExperienceSection extends Component {
@@ -15,14 +15,14 @@ class ExperienceSection extends Component {
         let textBoxStyle = {
             backgroundColor: "#E2B5BC",
         }
-        let boxStyle = {
-            boxShadow: "5px 10px #C5979E",
-        }
+        let boxStyle = { }
+            // boxShadow: "5px 10px #C5979E",
+        // }
         return (
             <div className={"Experience section"}>
                 <SectionHeading text="experience" />
                 <div className={"Experience-box-container"}>
-                    <SectionBox
+                    <SectionBoxWithImage
                         title="Full Measure Grad Support Worker"
                         description={ccvDescription}
                         image={ccvImage}
@@ -30,7 +30,7 @@ class ExperienceSection extends Component {
                         boxStyle={boxStyle}
                         textBoxStyle={textBoxStyle}
                     />
-                    <SectionBox
+                    <SectionBoxWithImage
                         title="CCV User Services Internship"
                         description={ccvDescription}
                         image={ccvImage}

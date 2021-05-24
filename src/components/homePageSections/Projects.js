@@ -45,9 +45,7 @@ class ProjectsSection extends Component {
         let textBoxStyle = {
             backgroundColor: "#8AC6D1",
         }
-        let boxStyle = {
-            boxShadow: "5px 10px #6EA3AC",
-        }
+        let boxStyle = {}
 
         return (
             <div className={"Projects section"}>
@@ -56,28 +54,28 @@ class ProjectsSection extends Component {
                     <SectionBox
                         title="CCV Automation Script"
                         description={ccvAutomationDescription}
-                        image={ccvImage}
+                        className="Projects-box"
                         boxStyle={boxStyle}
                         textBoxStyle={textBoxStyle}
                     />
                     <SectionBox
                         title="JournalTexter"
                         description={journalTexterDescription}
-                        image={ccvImage}
+                        className="Projects-box"
                         boxStyle={boxStyle}
                         textBoxStyle={textBoxStyle}
                     />
                     <SectionBox
                         title="Socky"
                         description={sockyDescription}
-                        image={ccvImage}
+                        className="Projects-box"
                         boxStyle={boxStyle}
                         textBoxStyle={textBoxStyle}
                     />
                     <SectionBox
                         title="Auctions Project"
                         description={auctionsProject}
-                        image={ccvImage}
+                        className="Projects-box"
                         boxStyle={boxStyle}
                         textBoxStyle={textBoxStyle}
                     />
