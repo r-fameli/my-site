@@ -1,5 +1,5 @@
 .Experience {
-    min-height:100%;
+    min-height:100vh;
     background-color: #FAE3D9;
     align-content: center;
 }
@@ -11,10 +11,11 @@
 }
 
 .Experience-box-container .SectionBox {
-    transition: box-shadow 0.8s
+    transition: box-shadow 0.7s, margin-top 1s;
 }
 
 .Experience-box-container .SectionBox:hover {
-    box-shadow: 5px 10px #C5979E
+    box-shadow: 5px 10px #C5979E;
+    margin-top:-1px;
 }
 

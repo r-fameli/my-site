@@ -12,7 +12,9 @@
     position:absolute;
     margin-bottom:-10px;
     height: 80vh;
+    min-height:80vh;
     width:60vw;
+    min-width:60vh;
     z-index:1;
 }
 

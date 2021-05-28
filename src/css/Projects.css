@@ -9,9 +9,10 @@
 }
 
 .Projects-box-container .SectionBox {
-    transition: box-shadow 0.8s
+    transition: box-shadow 0.7s, margin-top 1s;
 }
 
 .Projects-box-container .SectionBox:hover {
-    box-shadow: 5px 10px 5px 6px #6EA3AC
+    box-shadow: 5px 10px #6EA3AC;
+    margin-top:-1px;
 }

@@ -9,6 +9,7 @@ import '../../css/HomePage.css'
 import '../../css/ColorfulBar.css'
 import EndSection from '../homePageSections/End';
 
+
 function HomePage() {
   return (
     <div>

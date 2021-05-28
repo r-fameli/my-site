@@ -10,7 +10,7 @@ class StartSection extends Component {
             { text: "experience", color: "#93B4CC" },
             { text: "projects", color: "#9FD8DF" },
             { text: "skills", color: "#93B4CC" },
-            { text: "other", color: "#F5C0C0" }
+            { text: "contact", color: "#F5C0C0" }
           ]
           let bottomSections = [
             { text: "", color: "#F5C0C0" },

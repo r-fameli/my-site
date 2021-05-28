@@ -1,5 +1,4 @@
 .End {
-    /* margin-bottom:-10px; */
     padding-bottom:0;
 }
 
@@ -11,4 +10,59 @@
 
 .End-footer-photo {
     width:100%;
+    margin-bottom:-10px;
+}
+
+.End-footer {
+    padding-right:15%;
+    padding-left:15%;
+    background:black;
+    color:white;
+    text-align:center;
+}
+
+hr {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    width:100%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.End-icon-container {
+    margin:20px;
+    display: inline-block;
+    width:100px;
+    height:100px;
+    position:relative;
+    text-align:center;
+}
+
+.End-icon-circle {
+    width: 95%;
+    height: 95%;
+    margin: auto;
+    border-radius: 50%;
+    background-color: black;
+    border: 2px solid white;
+}
+
+.End-icon {
+    position: absolute;
+    margin-left: auto; 
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    width:60%;
+    height:60%;
+    top:50%;
+    transform: translateY(-50%);
+    z-index:3;
+}
+
+.End-icons-row {
+    display:flex;
+    /* flex-direction:row-reverse; */
+    justify-content: flex-end;
+    
 }
