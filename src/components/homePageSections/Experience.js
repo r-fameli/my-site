@@ -16,8 +16,6 @@ class ExperienceSection extends Component {
             backgroundColor: "#E2B5BC",
         }
         let boxStyle = { }
-            // boxShadow: "5px 10px #C5979E",
-        // }
         return (
             <div className={"Experience section"}>
                 <SectionHeading text="experience" />

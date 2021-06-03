@@ -1,0 +1,62 @@
+
+:root {
+    --popup-height:500px;
+}
+
+.SectionBoxWithPopup {
+    width:80%;
+    display:flex;
+    justify-content: center;
+    margin: 20px;
+    min-height: 260px;
+    max-height: 260px;
+    transition: margin-bottom 2s, margin-top 2s;
+}
+
+.SectionBoxWithPopup-text {
+    vertical-align: top;
+    width: 100%;
+    position:relative;
+    z-index:1;
+}
+
+.SectionBoxWithPopup-text h1 {
+    text-align:center;
+}
+
+.SectionBoxWithPopup-text ul li {
+    margin-left:20px;
+}
+
+/* WithPopup */
+.SectionBox-popup {
+    position:absolute;
+    z-index: 0;
+    overflow:hidden;
+    width:80%;
+    height:90px;
+    transition: margin-top 2s, height 2s;
+}
+
+.SectionBoxWithPopup-image {
+    width: 100%;
+    height: var(--popup-height)
+}
+
+.SectionBoxWithPopup:hover .SectionBox-popup {
+    margin-top: calc(-1 * var(--popup-height));
+    height: var(--popup-height);
+}
+
+.SectionBoxWithPopup:hover {
+    margin-top: var(--popup-height);
+}
+
+/* 
+.SectionBoxWithPopup:hover .SectionBoxWithPopup-image {
+    height: 500px;
+}
+ */
+
+
+/* https://www.w3docs.com/snippets/css/how-to-align-inline-block-elements-to-top-of-the-container.html */

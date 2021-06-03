@@ -1,0 +1,32 @@
+
+.SectionBoxWithImage {
+    width:80%;
+    display:flex;
+    margin: 20px;
+    max-height: 260px;
+}
+
+.SectionBoxWithImage-text {
+    vertical-align: top;
+    width: 100%;
+    position:relative;
+    z-index:1;
+}
+
+.SectionBoxWithImage-text h1 {
+    text-align:center;
+}
+
+.SectionBoxWithImage-text ul li {
+    margin-left:20px;
+}
+
+/* WithImage */
+.SectionBoxWithImage-image {
+    max-width: 260px;
+    max-height:260px;
+}
+
+
+
+/* https://www.w3docs.com/snippets/css/how-to-align-inline-block-elements-to-top-of-the-container.html */

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import '../../css/Projects.css'
 import SectionHeading from '../heading/SectionHeading';
-import SectionBox from '../sectionBox/SectionBox';
+import SectionBoxWithPopup from '../sectionBox/SectionBoxWithPopup';
 import ccvImage from '../../assets/ccv-black-background.png'
 
 
@@ -51,28 +51,28 @@ class ProjectsSection extends Component {
             <div className={"Projects section"}>
                 <SectionHeading text="projects" />
                 <div className={"Projects-box-container"}>
-                    <SectionBox
+                    <SectionBoxWithPopup
                         title="CCV Automation Script"
                         description={ccvAutomationDescription}
                         className="Projects-box"
                         boxStyle={boxStyle}
                         textBoxStyle={textBoxStyle}
                     />
-                    <SectionBox
+                    <SectionBoxWithPopup
                         title="JournalTexter"
                         description={journalTexterDescription}
                         className="Projects-box"
                         boxStyle={boxStyle}
                         textBoxStyle={textBoxStyle}
                     />
-                    <SectionBox
+                    <SectionBoxWithPopup
                         title="Socky"
                         description={sockyDescription}
                         className="Projects-box"
                         boxStyle={boxStyle}
                         textBoxStyle={textBoxStyle}
                     />
-                    <SectionBox
+                    <SectionBoxWithPopup
                         title="Auctions Project"
                         description={auctionsProject}
                         className="Projects-box"
