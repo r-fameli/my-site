@@ -1,19 +1,43 @@
-.About {
-    background-color: #FFB6B9;
-    display:grid;
-    grid-template-columns: 1fr 1fr 1fr
+#About {
+    background-color: #F5C0C0; /* #F5C0C0 #FFB6B9 */
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    /* justify-content: safe; */
+}
+
+.About-photo-container {
+    /* margin-top:auto; */
+    /* margin-bottom:auto; */
+    height: 85%;
+    display:flex;
+    justify-content: space-evenly;
+}
+
+.About-photo-container > * {
+    margin-top: auto;
+    margin-bottom:auto;
 }
 
 .About-photo {
-    position: absolute;
-    height: 95vh;
-    left: 60%;
+    height:50%;
+    border-radius: 50%;
 }
 
-.About-textbox {
-    padding:30px;
-    width:100%;
-    background-color: #FFE6E7;
-    border-radius: 50px;
-
+.About-text {
+    width:40%
 }
+
+.About-text h1 {
+    margin-bottom:10px;
+}
+
+.About-section-bar-container {
+    margin-top:auto;
+}
+
+a {
+    color:black;
+    text-decoration: initial;
+}
+/* background-color: #FFE6E7; */

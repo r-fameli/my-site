@@ -8,7 +8,6 @@ function CircleIcon(props) {
                 <img className="CircleIcon-image" src={props.image} />
                 <div className="CircleIcon-circle" />
             </a>
-            
         </span>
     )
 }

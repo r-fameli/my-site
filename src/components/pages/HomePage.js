@@ -13,7 +13,8 @@ import EndSection from '../homePageSections/End';
 function HomePage() {
   return (
     <div>
-      <StartSection />
+      <AboutSection />
+      {/* <StartSection /> */}
       <ExperienceSection />
       <ProjectsSection />
       <SkillsSection />

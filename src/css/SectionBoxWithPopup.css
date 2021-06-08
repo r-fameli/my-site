@@ -1,16 +1,10 @@
-
 :root {
-    --popup-height:500px;
-}
-
-.SectionBoxWithPopup {
-    width:80%;
-    display:flex;
-    justify-content: center;
-    margin: 20px;
-    min-height: 260px;
-    max-height: 260px;
-    transition: margin-bottom 2s, margin-top 2s;
+    --popup-click-height:500px;
+    --popup-hover-height:50px;
+    --time-hover:1s;
+    --time-down:1s;
+    --time-up:1s;
+    --tab-color:#A2D2D2;
 }
 
 .SectionBoxWithPopup-text {
@@ -28,35 +22,69 @@
     margin-left:20px;
 }
 
-/* WithPopup */
+.SectionBoxWithPopup-frame {
+    display:flex;
+    flex-direction: column;
+    background-color: var(--tab-color);
+    padding: 20px;
+}
+
+.SectionBoxWithPopup-tab {
+    text-align:center;
+    background-color:var(--tab-color);
+    width:500px;
+    font-size: 30px;
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    --br:5px;
+    border-top-left-radius: var(--br);
+    border-top-right-radius: var(--br);
+}
+
+.SectionBoxWithPopup {
+    width:80%;
+    display:flex;
+    justify-content: center;
+    margin: 20px;
+    min-height: 260px;
+    max-height: 260px;
+    transition: margin-bottom var(--time-up), margin-top var(--time-up), box-shadow var(--time-up);
+}
+
 .SectionBox-popup {
     position:absolute;
     z-index: 0;
     overflow:hidden;
     width:80%;
     height:90px;
-    transition: margin-top 2s, height 2s;
+    transition: margin-top var(--time-up), height var(--time-up);
 }
 
 .SectionBoxWithPopup-image {
     width: 100%;
-    height: var(--popup-height)
+    height: var(--popup-click-height)
 }
 
-.SectionBoxWithPopup:hover .SectionBox-popup {
-    margin-top: calc(-1 * var(--popup-height));
-    height: var(--popup-height);
+.SectionBox-popup-hovered {
+    margin-top: calc(-1 * var(--popup-hover-height));
+    height: var(--popup-hover-height);
+    transition: margin-top var(--time-down), height var(--time-down);
 }
 
-.SectionBoxWithPopup:hover {
-    margin-top: var(--popup-height);
+.SectionBoxWithPopup-hovered {
+    margin-top: var(--popup-hover-height);
+    transition: margin-bottom var(--time-down), margin-top var(--time-down), box-shadow var(--time-down);
+    box-shadow: 5px 10px #6EA3AC;
 }
 
-/* 
-.SectionBoxWithPopup:hover .SectionBoxWithPopup-image {
-    height: 500px;
+.SectionBox-popup-clicked {
+    margin-top: calc(-1 * var(--popup-click-height));
+    height: var(--popup-click-height);
+    
 }
- */
 
+.SectionBoxWithPopup-clicked {
+    margin-top: var(--popup-click-height);
+}
 
-/* https://www.w3docs.com/snippets/css/how-to-align-inline-block-elements-to-top-of-the-container.html */

@@ -25,7 +25,9 @@ class StartSection extends Component {
                 <div className={"Start-profile-container"}>
                     <img src={profile} id={"Start-profile"} />
                     <div className={"Start-fade"} />
-                    <div className={"Start-text"}></div>
+                    <div className={"Start-text"}>
+                        Hi, my name is Riki
+                    </div>
                 </div>
                 <ColorfulBar sections={bottomSections} id={"footer-bar"} className={"Start-bar"} />
             </div>

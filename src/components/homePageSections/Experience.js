@@ -17,17 +17,9 @@ class ExperienceSection extends Component {
         }
         let boxStyle = { }
         return (
-            <div className={"Experience section"}>
+            <div id={"Experience"}>
                 <SectionHeading text="experience" />
                 <div className={"Experience-box-container"}>
-                    <SectionBoxWithImage
-                        title="Full Measure Grad Support Worker"
-                        description={ccvDescription}
-                        image={ccvImage}
-                        className="Experience-box"
-                        boxStyle={boxStyle}
-                        textBoxStyle={textBoxStyle}
-                    />
                     <SectionBoxWithImage
                         title="CCV User Services Internship"
                         description={ccvDescription}

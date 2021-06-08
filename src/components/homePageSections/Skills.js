@@ -7,10 +7,9 @@ import SkillBar from '../skillBar/SkillBar';
 
 class SkillsSection extends Component {
 
-    // TODO add tags
     render() {
         return (
-            <div className={"Skills section"}>
+            <div id={"Skills"}>
                 <SectionHeading text="skills" />
                 <SearchableSkillsGrid />
                 {/* <SearchBar /> */}

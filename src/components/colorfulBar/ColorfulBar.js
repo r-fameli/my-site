@@ -13,7 +13,10 @@ class ColorfulBar extends Component {
         return (
             <div className="ColorfulBar">
                 {this.state.sections.map(section => 
+                <a href={section.link}>
                     <ColoredBox text={section.text} color={section.color} />  
+                </a>
+                    
                 )}        
             </div>
         )

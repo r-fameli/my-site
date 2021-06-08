@@ -38,7 +38,6 @@ class ProjectsSection extends Component {
             Created a basic auctions website with user authentication using Django and SQLite for CS50 Web Programming
         </div>
 
-
         const sockyDescription = <div>
             A short 2D collecting game developed using the Pygame library for Python as a final project for CS50x.
         </div>
@@ -48,7 +47,7 @@ class ProjectsSection extends Component {
         let boxStyle = {}
 
         return (
-            <div className={"Projects section"}>
+            <div id={"Projects"}>
                 <SectionHeading text="projects" />
                 <div className={"Projects-box-container"}>
                     <SectionBoxWithPopup
