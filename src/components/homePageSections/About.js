@@ -14,18 +14,20 @@ class AboutSection extends Component {
           ]
         return (
             <div id={"About"}>
+
                 <div className="About-photo-container">
                     <img src={ProfilePhoto} className="About-photo"/>
                     <div className="About-text">
-                        <h1>Riki Fameli</h1>
+                        <h1>Hi, I'm Riki</h1>
                         <p>
-                        Hi, I’m a junior studying Computer Science at Brown University. 
+                        I’m a junior studying Computer Science at Brown University. 
                         Most of my experience lies in web development and user service, but I am currently learning web design. 
                         Outside of class and work, I perform with the aerial arts team and am also interested in calisthenics and dance!
                         </p>
                         
                     </div>
                 </div>
+
                 <div className="About-section-bar-container">
                     <ColorfulBar sections={sections} className={"About-section-bar"}/>
                 </div>

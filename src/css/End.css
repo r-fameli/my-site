@@ -32,5 +32,13 @@ hr {
 .End-icons-row {
     display:flex;
     justify-content: flex-end;
-    
+}
+
+.End-footer p {
+    font-size:12px;
+}
+
+.End-footer p a {
+    text-decoration: initial;
+    color: lightblue;
 }

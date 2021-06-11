@@ -3,7 +3,6 @@
     height:100vh;
     display:flex;
     flex-direction:column;
-    /* justify-content: safe; */
 }
 
 .About-photo-container {
@@ -22,22 +21,31 @@
 .About-photo {
     height:50%;
     border-radius: 50%;
+    transition: box-shadow 0.5s;
+}
+
+.About-photo:hover {
+    box-shadow: rgba(255, 255, 235, 0.685) 0px 0px 40px 20px;
+    /* in order: x offset, y offset, blur size, spread size, color */
+    /* blur size and spread size are optional (they default to 0) */
 }
 
 .About-text {
-    width:40%
+    width:50%;
+    /* font-size:20px; */
+    font-size:3vh;
 }
 
 .About-text h1 {
+    font-size:7.5vh;
     margin-bottom:10px;
 }
 
 .About-section-bar-container {
     margin-top:auto;
+    /* margin-bottom:auto; */
+    position:sticky;
+    top:0;
 }
 
-a {
-    color:black;
-    text-decoration: initial;
-}
 /* background-color: #FFE6E7; */

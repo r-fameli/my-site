@@ -2,8 +2,8 @@
     /* min-height:100vh; */
     overflow:hidden;
     height:100vh;
-    background-color: #FAE3D9;
-    align-content: center;
+    background-color: #FAE3D9; /* #FAE3D9 */
+    align-content: center; 
 }
 
 .Experience-box-container {
@@ -17,7 +17,7 @@
 }
 
 .Experience-box-container .SectionBoxWithImage:hover {
-    box-shadow: 5px 10px #C5979E;
+    box-shadow: 5px 10px #c5979e;
     margin-top:-1px;
     margin-left:-0.5px;
 }

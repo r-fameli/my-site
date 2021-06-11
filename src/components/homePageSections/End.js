@@ -13,6 +13,7 @@ class EndSection extends Component {
                 <div className={"End-fade"} id="Contact"/>
                 <div className={"End-footer"}>
                     Made by Riki Fameli © 2021
+                    <p>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></p>
                     <hr/>
                     <div className={"End-icons-row"} >
                         <CircleIcon image={MailIcon} link={"mailto:rikifameli@gmail.com"}/>

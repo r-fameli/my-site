@@ -5,6 +5,11 @@
     padding-top:0;
 }
 
+.ColorfulBar a {
+    color:inherit;
+    text-decoration: initial;
+}
+
 .ColoredBox {
     max-height: 100px;
     font-size: 250%;
