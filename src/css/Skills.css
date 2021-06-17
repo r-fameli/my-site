@@ -1,16 +1,16 @@
 #Skills {
+    --side-padding: 10%;
+    padding-left: var(--side-padding);
+    padding-right: var(--side-padding);
     background-color: #8AC6D1;
 }
 
-.Skills-bars-grid {
-    margin-left: 10%;
-    margin-right: 10%;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 80px;
-    row-gap: 20px;
-    align-items: center;
-    position:relative;
-    align-content:space-around;
-    justify-content: space-around;
+.Skills-icons {
+    display:grid;
+    column-gap: 20px;
+    row-gap: 30px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    grid-template-columns:1fr 1fr 1fr 1fr 1fr;
 }
+

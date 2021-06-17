@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
-import '../../css/Experience.css'
+import '../../css/Experience.css';
 import SectionHeading from '../heading/SectionHeading';
 import SectionBoxWithImage from '../sectionBox/SectionBoxWithImage';
-import ccvImage from '../../assets/ccv-black-background.png'
+import ccvImage from '../../assets/ccv-black-background.png';
+import TanCircleScatter from '../../assets/tan-circle-scatter.svg';
 
 class ExperienceSection extends Component {
     render() {
@@ -18,7 +19,11 @@ class ExperienceSection extends Component {
         let boxStyle = { }
         return (
             <div id={"Experience"}>
+                {/* <div className="Experience-background-pattern-container">
+                    <img className="Experience-background-pattern" src={TanCircleScatter}/>
+                </div> */}
                 <SectionHeading text="experience" />
+                
                 <div className={"Experience-box-container"}>
                     <SectionBoxWithImage
                         title="CCV User Services Internship"

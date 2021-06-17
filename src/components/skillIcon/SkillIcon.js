@@ -4,12 +4,11 @@ import '../../css/SkillIcon.css';
 function CircleIcon(props) {
     return (
         <span className="SkillIcon">
-            <a href={props.link}>
+            <a href={props.link} target="_blank">
                 <div className="SkillIcon-image-container">
                     <img className="SkillIcon-image" src={props.image} />
                 </div>
                 <p className="SkillIcon-name">{props.name}</p>
-                
             </a>
         </span>
     )
