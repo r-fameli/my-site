@@ -10,7 +10,7 @@
     width: 100%;
     position:relative;
     z-index:1;
-    overflow: auto;
+    overflow: hidden;
 }
 
 .SectionBoxWithImage-text h1 {
@@ -24,4 +24,8 @@
 .SectionBoxWithImage-image {
     max-width: 260px;
     max-height:260px;
+}
+
+.SectionBoxWithImage-text p {
+    font-size: 18px;
 }

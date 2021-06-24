@@ -9,7 +9,7 @@ function SectionBoxWithImage(props) {
             </span>
             <span className="SectionBoxWithImage-text" style={props.textBoxStyle} >
                 <h1>{props.title}</h1>
-                {props.description}
+                <p>{props.description}</p>
             </span>
         </div>
     )

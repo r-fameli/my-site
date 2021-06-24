@@ -1,8 +1,15 @@
-# Getting Started with Create React App
+# Riki Fameli
+
+
+## Hi, welcome to my site!
+
+This is essentially a portfolio / resume site that I'm using to showcase past experience as well as projects. Currently, it is not deployed as I still have a lot of work to do, but it should be up soon(TM)!
+
+Here's all the stuff for running locally and everything:
+
+## Running Locally
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
 
 In the project directory, you can run:
 
@@ -64,7 +71,3 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/a
 ### Deployment
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

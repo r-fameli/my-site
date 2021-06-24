@@ -25,7 +25,7 @@ import CIcon from '../../assets/icons/c-icon.svg'
 import PremiereIcon from '../../assets/icons/premiere-pro-icon.png'
 
 
-class Skills2Section extends Component {
+class SkillsSection extends Component {
     render() {
         return (
             <div id={"Skills"}>
@@ -61,4 +61,4 @@ class Skills2Section extends Component {
         )
     }
 }
-export default Skills2Section;
+export default SkillsSection;

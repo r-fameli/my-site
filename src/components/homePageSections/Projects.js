@@ -2,16 +2,18 @@ import React, { Component } from 'react';
 import '../../css/Projects.css'
 import SectionHeading from '../heading/SectionHeading';
 import SectionBoxWithPopup from '../sectionBox/SectionBoxWithPopup';
-import ccvImage from '../../assets/ccv-black-background.png'
+import SockyDemo from '../../assets/videos/socky-demo.mp4';
+import CCVDemo from '../../assets/videos/ccv-script-demo.mp4';
+import JournalTexterDemo from '../../assets/videos/journaltexter-demo.mp4';
 
 
 class ProjectsSection extends Component {
     render() {
         const ccvAutomationDescription = <div>
-            <text>
+            <p>
                 Script created using Python and Selenium WebDriver that automatically opens a browser and adds
                 users through various web interfaces.
-            </text>
+            </p>
             <ul>
                 <li>Waits for users to log in manually to services</li>
                 <li>Adds users to several mailing lists in Listserv</li>
@@ -21,10 +23,10 @@ class ProjectsSection extends Component {
         </div>
         
         const journalTexterDescription = <div>
-            <text>
+            <p>
             A journalling web application for Intro to Sofware Engineering that prompts user with predetermined
             questions based on what they write.
-            </text>
+            </p>
             <ul>
                 <li>Relies on word count vectorization to suggest questions</li>
                 <li>Uses Java for backend data manipulation</li>
@@ -34,17 +36,13 @@ class ProjectsSection extends Component {
             </ul>
         </div>
 
-        const auctionsProject = <div>
-            Created a basic auctions website with user authentication using Django and SQLite for CS50 Web Programming
-        </div>
-
         const sockyDescription = <div>
             A short 2D collecting game developed using the Pygame library for Python as a final project for CS50x.
         </div>
+        
         let textBoxStyle = {
             backgroundColor: "#8AC6D1",
         }
-        let boxStyle = {}
 
         return (
             <div id={"Projects"}>
@@ -54,29 +52,28 @@ class ProjectsSection extends Component {
                         title="CCV Automation Script"
                         description={ccvAutomationDescription}
                         className="Projects-box"
-                        boxStyle={boxStyle}
                         textBoxStyle={textBoxStyle}
+                        demoVideo={CCVDemo}
+                        videoId="1"
+                        repo={"https://github.com/r-fameli/ccv_automation"}
                     />
                     <SectionBoxWithPopup
                         title="JournalTexter"
                         description={journalTexterDescription}
                         className="Projects-box"
-                        boxStyle={boxStyle}
                         textBoxStyle={textBoxStyle}
+                        demoVideo={JournalTexterDemo}
+                        videoId="2"
+                        repo={"https://github.com/r-fameli/journaltexter"}
                     />
                     <SectionBoxWithPopup
                         title="Socky"
                         description={sockyDescription}
                         className="Projects-box"
-                        boxStyle={boxStyle}
                         textBoxStyle={textBoxStyle}
-                    />
-                    <SectionBoxWithPopup
-                        title="Auctions Project"
-                        description={auctionsProject}
-                        className="Projects-box"
-                        boxStyle={boxStyle}
-                        textBoxStyle={textBoxStyle}
+                        demoVideo={SockyDemo}
+                        videoId="3"
+                        repo={"https://github.com/r-fameli/Socky"}
                     />
                 </div>
             </div>
