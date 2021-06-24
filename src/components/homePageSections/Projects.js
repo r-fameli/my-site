@@ -47,6 +47,7 @@ class ProjectsSection extends Component {
         return (
             <div id={"Projects"}>
                 <SectionHeading text="projects" />
+                <h3 id={"Projects-subtitle"}>Click on project boxes to display demo</h3>
                 <div className={"Projects-box-container"}>
                     <SectionBoxWithPopup
                         title="CCV Automation Script"

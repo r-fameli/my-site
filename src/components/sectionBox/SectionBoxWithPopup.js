@@ -9,6 +9,7 @@ function SectionBoxWithPopup(props) {
     const [sectionBoxClass, setSectionBoxClass] = useState("SectionBoxWithPopup");
     const [popupClass, setPopupClass] = useState("SectionBox-popup");
     const [isExpanded, setIsExpanded] = useState(false);
+    const [suppressExpand, setSuppressExpand] = useState(false);
 
     function handleMouseEnter() {
         if (!isExpanded) {
@@ -26,22 +27,25 @@ function SectionBoxWithPopup(props) {
 
     function handleClick() {
         const clickedClass = "SectionBoxWithPopup-clicked"
-        if (sectionBoxClass.indexOf(clickedClass) === -1) {
-            setIsExpanded(true)
-            // Update classes
-            setSectionBoxClass("SectionBoxWithPopup SectionBoxWithPopup-clicked")
-            setPopupClass("SectionBox-popup SectionBox-popup-clicked")
-            // Play the demo video
-            document.querySelector('#' + videoId).play()
-        } else {
-            setIsExpanded(false)
-            // Update classes
-            setSectionBoxClass("SectionBoxWithPopup SectionBoxWithPopup-hovered")
-            setPopupClass("SectionBox-popup SectionBox-popup-hovered")
-            // Pause the demo video
-            document.querySelector('#' + videoId).pause()
+        if (!suppressExpand) {
+            if (sectionBoxClass.indexOf(clickedClass) === -1) {
+                setIsExpanded(true)
+                // Update classes
+                setSectionBoxClass("SectionBoxWithPopup SectionBoxWithPopup-clicked")
+                setPopupClass("SectionBox-popup SectionBox-popup-clicked")
+                // Play the demo video
+                document.querySelector('#' + videoId).play()
+            } else {
+                setIsExpanded(false)
+                // Update classes
+                setSectionBoxClass("SectionBoxWithPopup SectionBoxWithPopup-hovered")
+                setPopupClass("SectionBox-popup SectionBox-popup-hovered")
+                // Pause the demo video
+                document.querySelector('#' + videoId).pause()
+            }
         }
     }
+
 
     return (
         <div
@@ -53,8 +57,15 @@ function SectionBoxWithPopup(props) {
             <div className="SectionBoxWithPopup-text">
                 <h1>{props.title}</h1>
                 <p>{props.description}</p>
-                <div className="SectionBoxWithPopup-links">
-                    <a href={props.repo}>
+                <div 
+                className="SectionBoxWithPopup-links"
+                onMouseEnter={() => setSuppressExpand(true)}
+                onMouseLeave={() => setSuppressExpand(false)}
+                >
+                    <a 
+                    href={props.repo}
+                    target="_blank"
+                    >
                         <button className="SectionBoxWithPopup-link-btn">repo</button>
                     </a>
                 </div>
