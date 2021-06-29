@@ -39,22 +39,20 @@
 }
 
 .SectionBoxWithPopup-link-btn {
-    /* border: 50px solid black; */
-    /* background-color: #81ebb1; #1e88e5 #769be0 */
     background: whitesmoke;
-    border: 3px solid #6e6fac;
+    border: 3px solid lightblue; /* purple: #6e6fac */
     width: 150px;
     height: 40px;
     border-radius: 5px;
     margin-top: 15px;
     font:inherit;
     font-size: 20px;
-    /* font-weight: bold; */
+    transition: border 0.3s;
 }
 
 .SectionBoxWithPopup-link-btn:hover {
     cursor: help;
-    border: 6px solid #6e6fac;
+    border: 6px solid lightblue;
 }
 
 .SectionBoxWithPopup-frame {

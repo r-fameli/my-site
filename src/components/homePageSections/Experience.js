@@ -18,7 +18,7 @@ class ExperienceSection extends Component {
         }
         let boxStyle = { }
         return (
-            <div id={"Experience"}>
+            <div id={"Experience"} className={"section"}>
                 {/* <div className="Experience-background-pattern-container">
                     <img className="Experience-background-pattern" src={TanCircleScatter}/>
                 </div> */}

@@ -45,7 +45,7 @@ class ProjectsSection extends Component {
         }
 
         return (
-            <div id={"Projects"}>
+            <div id={"Projects"} className={"section"}>
                 <SectionHeading text="projects" />
                 <h3 id={"Projects-subtitle"}>Click on project boxes to display demo</h3>
                 <div className={"Projects-box-container"}>

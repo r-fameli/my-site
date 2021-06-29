@@ -9,7 +9,7 @@ import CircleIcon from '../circleIcon/CircleIcon';
 class EndSection extends Component {
     render() {
         return (
-            <div className={"End"} >
+            <div className={"End class"} >
                 <div className={"End-fade"} id="Contact"/>
                 <div className={"End-footer"}>
                     Made by Riki Fameli © 2021

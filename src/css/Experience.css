@@ -23,7 +23,7 @@
     align-items:center;
     display:flex;
     flex-direction: column;
-    z-index: 3;
+    /* z-index: 3; */
 }
 
 .Experience-box-container .SectionBoxWithImage {

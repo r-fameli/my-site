@@ -5,16 +5,8 @@ import ColorfulBar from '../colorfulBar/ColorfulBar';
 
 class AboutSection extends Component {
     render() {
-        let sections = [
-            { text: "about", color: "#FFB6B9", link: "#About"}, // darker pink: #FFB6B9, lighter pink: #F5C0C0
-            { text: "experience", color: "#93B4CC", link: "#Experience"},
-            { text: "projects", color: "#9FD8DF", link: "#Projects"},
-            { text: "skills", color: "#93B4CC", link: "#Skills"},
-            { text: "contact", color: "#FFB6B9", link: "#Contact"}
-          ]
         return (
-            <div id={"About"}>
-
+            <div id={"About"} className={"section"}>
                 <div className="About-photo-container">
                     <img src={ProfilePhoto} className="About-photo"/>
                     <div className="About-text">
@@ -28,9 +20,7 @@ class AboutSection extends Component {
                     </div>
                 </div>
 
-                <div className="About-section-bar-container">
-                    <ColorfulBar sections={sections} className={"About-section-bar"}/>
-                </div>
+                
                 
             </div>
         )

@@ -28,7 +28,7 @@ import PremiereIcon from '../../assets/icons/premiere-pro-icon.png'
 class SkillsSection extends Component {
     render() {
         return (
-            <div id={"Skills"}>
+            <div id={"Skills"} className={"section"}>
                 <SectionHeading text="skills" />
                 <h1>I'm most comfortable with...</h1>
                 <div className="Skills-icons">

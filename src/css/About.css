@@ -1,12 +1,14 @@
 #About {
     background-color: #f5c0c0; /* #F5C0C0 #FFB6B9 */
-    height:100vh;
+    height:90vh;
     display:flex;
     flex-direction:column;
 }
 
 .About-photo-container {
     height: 85%;
+    /* max-width: 100%; */
+    /* height: auto; */
     display:flex;
     justify-content: space-evenly;
 }
@@ -30,20 +32,12 @@
 
 .About-text {
     width:50%;
-    /* font-size:20px; */
     font-size:3vh;
 }
 
 .About-text h1 {
     font-size:7.5vh;
     margin-bottom:10px;
-}
-
-.About-section-bar-container {
-    margin-top:auto;
-    /* margin-bottom:auto; */
-    position:sticky;
-    top:0;
 }
 
 /* background-color: #FFE6E7; */
