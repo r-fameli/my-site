@@ -1,27 +1,31 @@
 .SkillIcon {
     text-align: center;
     /* border: 2px solid blue; */
+    width: 20%;
+    margin-bottom: 5%;
 }
 
 
 .SkillIcon-image {
     /* border: 2px solid red; */
+    min-width: 40%;
     max-width:100%;
 }
 
 .SkillIcon-image-container {
+    /* border: 2px solid green; */
     display:flex;
     margin: 5px;
     justify-content:center;
     align-content: center;
-    /* border: 2px solid green; */
     height: 100px;
-    overflow:auto;
+    /* max-width: 50; */
+    /* overflow:auto; */
 }
 
 
 .SkillIcon-name {
     text-align: center;
     margin-top: 20px;
-    font-size: 20px;
+    font-size: 150%;
 }

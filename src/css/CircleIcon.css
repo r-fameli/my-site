@@ -10,8 +10,11 @@
 
 
 .CircleIcon-circle {
-    width: 95%;
-    height: 95%;
+    /* width: 95%; */
+    /* width: auto; */
+    width: 6.25vw;
+    height: 6.25vw;
+    /* height: auto; */
     margin: auto;
     border-radius: 50%;
     background-color: black;
