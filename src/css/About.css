@@ -1,16 +1,19 @@
 #About {
     background-color: #f5c0c0; /* #F5C0C0 #FFB6B9 */
-    height:90vh;
-    display:flex;
-    flex-direction:column;
+    /* height:90vh; */
+    height: 90vh;
+
 }
 
 .About-photo-container {
     height: 85%;
+    /* max-height: 100%; */
+    /* width: auto; */
     /* max-width: 100%; */
     /* height: auto; */
     display:flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .About-photo-container > * {
@@ -19,7 +22,7 @@
 }
 
 .About-photo {
-    height:50%;
+    height:20vw;
     border-radius: 50%;
     transition: box-shadow 0.5s;
 }
@@ -32,11 +35,13 @@
 
 .About-text {
     width:50%;
-    font-size:3vh;
+    /* font-size:2vw; */
+    font-size: 175%;
 }
 
 .About-text h1 {
-    font-size:7.5vh;
+    /* font-size: 3vw; */
+    font-size: 175%;
     margin-bottom:10px;
 }
 

@@ -4,7 +4,6 @@ import SampleImage from '../../assets/profile.jpg'
 import SockyDemo from '../../assets/videos/socky-demo.mp4'
 
 function SectionBoxWithPopup(props) {
-    // TODO add bottom links
     const videoId = "demo-video-" + props.videoId;
     const [sectionBoxClass, setSectionBoxClass] = useState("SectionBoxWithPopup");
     const [popupClass, setPopupClass] = useState("SectionBox-popup");
@@ -56,16 +55,13 @@ function SectionBoxWithPopup(props) {
         >
             <div className="SectionBoxWithPopup-text">
                 <h1>{props.title}</h1>
-                <p>{props.description}</p>
+                {props.description}
                 <div 
                 className="SectionBoxWithPopup-links"
                 onMouseEnter={() => setSuppressExpand(true)}
                 onMouseLeave={() => setSuppressExpand(false)}
                 >
-                    <a 
-                    href={props.repo}
-                    target="_blank"
-                    >
+                    <a href={props.repo} target="_blank">
                         <button className="SectionBoxWithPopup-link-btn">repo</button>
                     </a>
                 </div>
@@ -78,7 +74,6 @@ function SectionBoxWithPopup(props) {
                     <video
                         className="SectionBoxWithPopup-video"
                         id={videoId}
-                        autoplay
                         muted
                         loop
                     >
