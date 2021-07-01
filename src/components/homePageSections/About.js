@@ -19,9 +19,6 @@ class AboutSection extends Component {
                         
                     </div>
                 </div>
-
-                
-                
             </div>
         )
 

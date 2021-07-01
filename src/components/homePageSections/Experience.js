@@ -23,11 +23,6 @@ class ExperienceSection extends Component {
                         description={ccvDescription}
                         image={ccvImage}
                     />
-                    <SectionBoxWithImage
-                        title="CCV User Services Internship"
-                        description={ccvDescription}
-                        image={ccvImage}
-                    />
                 </div>
             </div>
         )
