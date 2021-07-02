@@ -19,14 +19,15 @@
     position:relative;
     z-index:1;
     overflow: hidden;
-}
-
-.SectionBoxWithPopup-text p {
-    
     font-size: 18px;
 }
 
+.SectionBoxWithPopup-text p {
+    font-size: inherit;
+}
+
 .SectionBoxWithPopup-text h1 {
+    margin-bottom: 10px;
     text-align:center;
 }
 
@@ -66,7 +67,7 @@
 .SectionBoxWithPopup-tab {
     text-align:center;
     background-color:var(--tab-color);
-    width:500px;
+    width: 40%;
     font-size: 30px;
     padding: 5px;
     margin-left: auto;
@@ -82,7 +83,6 @@
     justify-content: center;
     margin: 20px;
     min-height: 100px;
-    max-height: 500px;
     transition: margin-bottom var(--time-up), margin-top var(--time-up), box-shadow var(--time-up);
 }
 
@@ -128,3 +128,69 @@
 .SectionBoxWithPopup-clicked {
     margin-top: var(--popup-click-height);
 }
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    :root {
+        --popup-click-height:300px;
+        --video-height:200px;
+    }
+
+    .SectionBoxWithPopup-tab {
+        font-size:10px;
+    }
+
+    .SectionBoxWithPopup-text h1 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .SectionBoxWithPopup-text {
+        font-size:15px;
+    }
+
+    .SectionBoxWithPopup-links {
+        text-align: center;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .SectionBoxWithPopup-text h1 {
+        font-size: 150%;
+        font-size: 25px;
+    }
+
+    .SectionBoxWithPopup-tab {
+        font-size:10px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    
+    .SectionBoxWithPopup-text {
+        font-size:15px;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .SectionBoxWithPopup-text h1 {
+        font-size: 175%;
+    }
+
+    .SectionBoxWithPopup-text {
+        font-size:20px;
+    }
+    .SectionBoxWithPopup-tab {
+        font-size:20px;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+/* @media only screen and (min-width: 1200px) {
+
+} */

@@ -61,6 +61,14 @@
     .SectionBoxWithImage-image {
         display: none;
     }
+
+    .SectionBoxWithImage-text {
+        font-size: 100%;
+    }
+
+    .SectionBoxWithImage-text h1 {
+        font-size: 130%;
+    }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -68,10 +76,15 @@
     .SectionBoxWithImage-image {
         display: none;
     }
+    .SectionBoxWithImage-text h1 {
+        font-size: 150%;
+    }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
+
+    
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -80,6 +93,11 @@
         display: initial;
     }
 
+    .SectionBoxWithImage-text h1 {
+        font-size: 200%;
+    }
+
+    
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */

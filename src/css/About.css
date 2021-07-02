@@ -2,15 +2,12 @@
     background-color: #f5c0c0; /* #F5C0C0 #FFB6B9 */
     min-height: 100vh;
     display: flex;
-    /* flex-direction: column; */
-    /* align-items: center; */
     justify-content: center;
     margin-top: -10vh;
     padding-top: 0px;
 }
 
 .About-photo-container {
-    /* height: 80%; */
     display:flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
@@ -35,37 +32,53 @@
 
 .About-text {
     width:50%;
-    /* font-size:2vw; */
     font-size: 150%;
 }
 
 .About-text h1 {
-    /* font-size: 3vw; */
     font-size: 175%;
     margin-bottom:10px;
 }
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+    #About {
+        margin-top: 0px;
+    }
 
+    .About-text {
+        font-size: 80%;
+    }
+
+    .About-photo {
+        height:30vh;
+    }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
+    .About-text {
+        font-size: 100%;
+    }
 
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-    
+
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-
+    .About-text {
+        font-size: 150%;
+    }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
 
+    .About-photo {
+        height:40vh;
+    }
 }
