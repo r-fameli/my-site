@@ -14,11 +14,10 @@
     padding-bottom: 50px;
 }
 
-
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     .Skills-heading {
-        font-size: 20px;
+        font-size: 18px;
     }
 }
 
