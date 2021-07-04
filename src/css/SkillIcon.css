@@ -3,29 +3,60 @@
     /* border: 2px solid blue; */
     width: 20%;
     margin-bottom: 5%;
+    margin: 20px;
 }
 
 
 .SkillIcon-image {
-    /* border: 2px solid red; */
-    min-width: 40%;
+    /* min-height: 120%; */
+    min-width: 20%;
     max-width:100%;
 }
 
 .SkillIcon-image-container {
     /* border: 2px solid green; */
     display:flex;
+    /* flex-wrap: wrap; */
     margin: 5px;
     justify-content:center;
     align-content: center;
     height: 100px;
-    /* max-width: 50; */
-    /* overflow:auto; */
 }
-
 
 .SkillIcon-name {
     text-align: center;
     margin-top: 20px;
     font-size: 150%;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .SkillIcon-name {
+        font-size: 100%;
+    }
+
+    .SkillIcon-image-container {
+        height: 50px
+    }
+
+    .SkillIcon-image {
+        max-width: 70%;
+    }
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
 }
