@@ -31,8 +31,7 @@ hr {
 }
 
 .End-icons-row {
-    display:flex;
-    justify-content: flex-end;
+    text-align: right;
 }
 
 .End-footer p {
@@ -42,4 +41,20 @@ hr {
 .End-footer p a {
     text-decoration: initial;
     color: lightblue;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .End-icons-row {
+        text-align: center;
+    }
+
+    .End-footer {
+        font-size: 10px;
+    }
+
+    .End-footer p {
+        font-size: 8px;
+    }
 }

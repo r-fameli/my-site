@@ -1,20 +1,18 @@
-
 .CircleIcon {
+    --circle-size: 95%;
+    --inner-icon-size: 60%;
+    --inner-icon-top:50%;
     margin:20px;
     display: inline-block;
     width:100px;
     height:100px;
     position:relative;
-    text-align:center;
 }
 
 
 .CircleIcon-circle {
-    /* width: 95%; */
-    /* width: auto; */
-    width: 6.25vw;
-    height: 6.25vw;
-    /* height: auto; */
+    width: var(--circle-size);
+    height: var(--circle-size);
     margin: auto;
     border-radius: 50%;
     background-color: black;
@@ -27,10 +25,39 @@
     margin-right: auto;
     left: 0;
     right: 0;
-    width:60%;
-    height:60%;
-    top:50%;
-    transform: translateY(-50%);
+    width:var(--inner-icon-size);
+    height:var(--inner-icon-size);
+    top:var(--inner-icon-top);
+    transform: translateY(calc(-1 * var(--inner-icon-top)));
     z-index:3;
 }
 
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .CircleIcon {
+        height: 50px;
+        width: 50px;
+        /* --circle-size:30%; */
+        /* --inner-icon-size: 20%; */
+        /* --inner-icon-top:9%; */
+    }
+
+    .CircleIcon-image {
+        left:2px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}

@@ -1,6 +1,5 @@
 .SkillIcon {
     text-align: center;
-    /* border: 2px solid blue; */
     width: 20%;
     margin-bottom: 5%;
     margin: 20px;
@@ -8,15 +7,12 @@
 
 
 .SkillIcon-image {
-    /* min-height: 120%; */
     min-width: 20%;
     max-width:100%;
 }
 
 .SkillIcon-image-container {
-    /* border: 2px solid green; */
     display:flex;
-    /* flex-wrap: wrap; */
     margin: 5px;
     justify-content:center;
     align-content: center;
