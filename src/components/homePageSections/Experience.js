@@ -16,7 +16,6 @@ class ExperienceSection extends Component {
         return (
             <div id={"Experience"} className={"section"}>
                 <SectionHeading text="experience"/>
-                
                 <div className={"Experience-box-container"}>
                     <SectionBoxWithImage
                         title="CCV User Services Internship"

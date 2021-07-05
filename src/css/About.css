@@ -50,8 +50,12 @@
         font-size: 80%;
     }
 
+    .About-text p {
+        font-size: 80%;
+    }
+
     .About-photo {
-        height:30vh;
+        height:25vh;
     }
 }
 
