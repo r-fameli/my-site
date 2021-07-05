@@ -30,7 +30,7 @@ class SkillsSection extends Component {
         return (
             <div id={"Skills"} className={"section"}>
                 <SectionHeading text="skills" />
-                <h1 className="Skills-heading">I'm most comfortable with...</h1>
+                <h1>I'm most comfortable with...</h1>
                 <div className="Skills-icons">
                     <SkillIcon name="java" image={JavaIcon} link={"https://www.java.com/en/"}/>
                     <SkillIcon name="python" image={PythonIcon} link={"https://www.python.org/"}/>
@@ -42,7 +42,7 @@ class SkillsSection extends Component {
                     <SkillIcon name="pyret" image={PyretIcon} link={"https://www.pyret.org/"}/>
                     <SkillIcon name="google sheets" image={SheetsIcon} link={"https://www.google.com/sheets/about/"}/>
                 </div>
-                <h1 className="Skills-heading">I've had practice with...</h1>
+                <h1>I've had practice with...</h1>
                 <div className="Skills-icons">
                     <SkillIcon name="django" image={DjangoIcon} link={"https://www.djangoproject.com/"}/>
                     <SkillIcon name="r" image={RIcon} link={"https://www.r-project.org/"}/>
@@ -52,7 +52,7 @@ class SkillsSection extends Component {
                     <SkillIcon name="indesign" image={IndesignIcon} link={"https://www.adobe.com/products/indesign.html"}/>
                     <SkillIcon name="photoshop" image={PhotoshopIcon} link={"https://www.adobe.com/products/photoshop.html"}/>
                 </div>
-                <h1 className="Skills-heading">I've been exposed to...</h1>
+                <h1>I've been exposed to...</h1>
                 <div className="Skills-icons">
                     <SkillIcon name="c" image={CIcon} link={"https://en.wikipedia.org/wiki/C_programming_language"}/>
                     <SkillIcon name="premiere pro" image={PremiereIcon} link={"https://www.adobe.com/products/premiere.html"}/>

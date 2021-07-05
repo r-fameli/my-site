@@ -8,17 +8,16 @@
 }
 
 .About-photo-container {
+    margin-top: auto;
+    margin-bottom:auto;
     display:flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
 
-.About-photo-container > * {
+.About-photo {
     margin-top: auto;
     margin-bottom:auto;
-}
-
-.About-photo {
     height:40vh;
     border-radius: 50%;
     transition: box-shadow 0.5s;
@@ -31,6 +30,7 @@
 }
 
 .About-text {
+    padding: 20px;
     width:50%;
     font-size: 150%;
 }

@@ -13,7 +13,8 @@ class AboutSection extends Component {
                         <h1>Hi, I'm Riki</h1>
                         <p>
                         I’m a junior studying Computer Science at Brown University. 
-                        Most of my experience lies in web development and user service, but I am currently learning web design. 
+                        Most of my experience lies in web development and user service, and I'm interested in the ways that computing
+                        can be used to tackle the problems of our generation, especially regarding mental health.
                         Outside of class and work, I perform with the aerial arts team and am also interested in calisthenics and dance!
                         </p>
                         
