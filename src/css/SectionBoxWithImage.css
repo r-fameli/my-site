@@ -1,0 +1,106 @@
+.SectionBoxWithImage {
+    width:80%;
+    display:flex;
+    margin: 20px;
+    padding: 10px;
+    padding-bottom: 20px;
+    background-color: #E2B5BC;
+    transition: box-shadow 0.7s, margin-top 1s, margin-left 1s;
+}
+
+.SectionBoxWithImage:hover {
+    box-shadow: 5px 10px #c5979e;
+    margin-top:-1px;
+    margin-left:-0.5px;
+}
+
+.SectionBoxWithImage-text {
+    vertical-align: top;
+    width: 100%;
+    position:relative;
+    z-index:1;
+    padding-right: 20px;
+    font-size: 110%;
+}
+
+.SectionBoxWithImage-text h1 {
+    padding-left: 20px;
+    font-size: 200%;
+}
+
+.SectionBoxWithImage-text ul li {
+    margin-left:40px;
+}
+
+.SectionBoxWithImage-image {
+    position: absolute;
+    right: -10px;
+    top: -10px;
+    margin: 5px;
+    max-height: 30%;
+    border-radius: 100%;
+    border: 4px solid #a58388;
+}
+
+.SectionBoxWithImage-text p {
+    font-size: 18px;
+}
+
+.SectionBoxWithImage-text hr {
+    margin: 5px;
+    margin-bottom: 15px;
+    margin-left: 20px;
+    width: 70%;
+    background-color: black;
+    border: 0.5px solid black;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .SectionBoxWithImage-image {
+        display: none;
+    }
+
+    .SectionBoxWithImage-text {
+        font-size: 100%;
+    }
+
+    .SectionBoxWithImage-text h1 {
+        font-size: 130%;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .SectionBoxWithImage-image {
+        display: none;
+    }
+    .SectionBoxWithImage-text h1 {
+        font-size: 150%;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+    
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .SectionBoxWithImage-image {
+        display: initial;
+    }
+
+    .SectionBoxWithImage-text h1 {
+        font-size: 200%;
+    }
+
+    
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+}

@@ -1,0 +1,63 @@
+.CircleIcon {
+    --circle-size: 95%;
+    --inner-icon-size: 60%;
+    --inner-icon-top:50%;
+    margin:20px;
+    display: inline-block;
+    width:100px;
+    height:100px;
+    position:relative;
+}
+
+
+.CircleIcon-circle {
+    width: var(--circle-size);
+    height: var(--circle-size);
+    margin: auto;
+    border-radius: 50%;
+    background-color: black;
+    border: 2px solid white;
+}
+
+.CircleIcon-image {
+    position: absolute;
+    margin-left: auto; 
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    width:var(--inner-icon-size);
+    height:var(--inner-icon-size);
+    top:var(--inner-icon-top);
+    transform: translateY(calc(-1 * var(--inner-icon-top)));
+    z-index:3;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .CircleIcon {
+        height: 50px;
+        width: 50px;
+        /* --circle-size:30%; */
+        /* --inner-icon-size: 20%; */
+        /* --inner-icon-top:9%; */
+    }
+
+    .CircleIcon-image {
+        left:2px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
