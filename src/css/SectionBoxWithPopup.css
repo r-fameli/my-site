@@ -8,6 +8,10 @@
     --tab-color:#A2D2D2;
 }
 
+.SectionBoxWithPopup {
+    width: 80%;
+}
+
 .SectionBoxWithPopup-text {
     background-color: #8AC6D1;
     padding-left: 30px;

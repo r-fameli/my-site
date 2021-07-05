@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import '../../css/End.css'
 import FooterPhoto from '../../assets/footer-photo.png'
-import MailIcon from '../../assets/mail-icon1.svg'
-import GithubIcon from '../../assets/github-64px.png'
-import LinkedinIcon from '../../assets/linkedin-white-72px.png'
+import MailIcon from '../../assets/icons/mail-icon1.svg'
+import GithubIcon from '../../assets/icons/github-64px.png'
+import LinkedinIcon from '../../assets/icons/linkedin-white-72px.png'
 import CircleIcon from '../circleIcon/CircleIcon';
 
 class EndSection extends Component {
