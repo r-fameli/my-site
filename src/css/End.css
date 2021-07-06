@@ -43,14 +43,6 @@ hr {
     color: lightblue;
 }
 
-/* This is to prevent mobile users from seeing white at the bottom of the screen */
-#End-black {
-    background-color: black;
-    position: absolute;
-    height: 50vh;
-    width:100%;
-}
-
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {

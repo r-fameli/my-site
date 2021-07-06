@@ -22,7 +22,6 @@ class EndSection extends Component {
                     </div>
                 </div>
                 <img className={"End-footer-photo"} src={FooterPhoto} alt={"Aerial footer"}/>
-                <div id={"End-black"}/>
             </div>
         )
 
