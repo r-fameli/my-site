@@ -1,5 +1,4 @@
 #Experience {
-    /* min-height:100vh; */
     overflow:hidden;
     min-height:100vh;
     background-color: #FAE3D9; /* #FAE3D9 */
@@ -24,14 +23,3 @@
     display:flex;
     flex-direction: column;
 }
-
-/* .Experience-box-container .SectionBoxWithImage {
-    background-color: #E2B5BC;
-    transition: box-shadow 0.7s, margin-top 1s, margin-left 1s;
-}
-
-.Experience-box-container .SectionBoxWithImage:hover {
-    box-shadow: 5px 10px #c5979e;
-    margin-top:-1px;
-    margin-left:-0.5px;
-} */

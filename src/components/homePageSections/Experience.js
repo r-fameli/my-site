@@ -21,6 +21,8 @@ class ExperienceSection extends Component {
                         title="CCV User Services Internship"
                         description={ccvDescription}
                         image={ccvImage}
+                        link={"https://ccv.brown.edu/"}
+                        alt={"Center for Computation and Visualization icon"}
                     />
                 </div>
             </div>

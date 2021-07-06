@@ -37,8 +37,7 @@
     right: -10px;
     top: -10px;
     margin: 5px;
-    max-height: 30%;
-    border-radius: 100%;
+    border-radius: 50%;
     border: 4px solid #a58388;
 }
 
@@ -74,7 +73,8 @@
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
     .SectionBoxWithImage-image {
-        display: none;
+        display: initial;
+        max-height: 40px;
     }
     .SectionBoxWithImage-text h1 {
         font-size: 150%;
@@ -83,14 +83,16 @@
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-
+    .SectionBoxWithImage-image {
+        max-height: 46px;
+    }
     
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
     .SectionBoxWithImage-image {
-        display: initial;
+        max-height: 55px;
     }
 
     .SectionBoxWithImage-text h1 {

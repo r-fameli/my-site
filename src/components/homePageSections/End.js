@@ -21,7 +21,8 @@ class EndSection extends Component {
                         <CircleIcon image={LinkedinIcon} link={"https://www.linkedin.com/in/riki-fameli/"}/>
                     </div>
                 </div>
-                <img className={"End-footer-photo"} src={FooterPhoto}/>
+                <img className={"End-footer-photo"} src={FooterPhoto} alt={"Aerial footer"}/>
+                <div id={"End-black"}/>
             </div>
         )
 

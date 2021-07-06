@@ -1,7 +1,5 @@
 import React, { useState } from 'react';
 import '../../css/SectionBoxWithPopup.css';
-import SampleImage from '../../assets/profile.jpg'
-import SockyDemo from '../../assets/videos/socky-demo.mp4'
 
 function SectionBoxWithPopup(props) {
     const videoId = "demo-video-" + props.videoId;
@@ -61,7 +59,7 @@ function SectionBoxWithPopup(props) {
                 onMouseEnter={() => setSuppressExpand(true)}
                 onMouseLeave={() => setSuppressExpand(false)}
                 >
-                    <a href={props.repo} target="_blank">
+                    <a href={props.repo} target="_blank" rel="noreferrer">
                         <button className="SectionBoxWithPopup-link-btn">repo</button>
                     </a>
                 </div>

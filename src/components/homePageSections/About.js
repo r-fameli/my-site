@@ -1,14 +1,13 @@
 import React, { Component } from 'react';
 import '../../css/About.css'
 import ProfilePhoto from '../../assets/prof-pic.png'
-import ColorfulBar from '../colorfulBar/ColorfulBar';
 
 class AboutSection extends Component {
     render() {
         return (
             <div id={"About"} className={"section"}>
                 <div className="About-photo-container">
-                    <img src={ProfilePhoto} className="About-photo"/>
+                    <img src={ProfilePhoto} className="About-photo" alt={"Riki Fameli profile"}/>
                     <div className="About-text">
                         <h1>Hi, I'm Riki</h1>
                         <p>

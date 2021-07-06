@@ -7,7 +7,7 @@ class ColorfulBar extends Component {
         return (
             <div className="ColorfulBar">
                 {this.props.sections.map(section => 
-                <a href={section.link}>
+                <a href={section.link} key={section.text}>
                     <ColoredBox text={section.text} color={section.color} />  
                 </a>
                 )}
