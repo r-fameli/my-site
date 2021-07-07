@@ -5,7 +5,9 @@
 
 This is my personal portfolio site developed using Create React App. If you'd like to see the actual website, visit [rikifameli.me](https://rikifameli.me).
 
-You can see the JSX for each part of the website within src/components. Styling was done using vanilla CSS. If you have any questions or would like to get in contact, please shoot me an email at rikifameli@gmail.com! I will try and keep the site updated with my newest projects and will likely redesign the page sometime in the future.
+You can see the JSX for each part of the website within src/components. Styling was done using vanilla CSS. The site is deployed through Github Pages and you can find the build files within the build branch of this repository. Also, this site is mobile-friendly, so feel free to test it out on your phone as well!
+
+If you have any questions or would like to get in contact, please shoot me an email at rikifameli@gmail.com! I will try and keep the site updated with my newest projects and will likely redesign the page sometime in the future.
 
 Here's the stuff for running locally through npm/yarn:
 
