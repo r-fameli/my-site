@@ -1,4 +1,4 @@
-# Riki Fameli
+# Riki Fameli | Personal Website
 
 
 ## Hello!
