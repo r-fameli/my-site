@@ -3,6 +3,7 @@ import '../../css/Experience.css';
 import SectionHeading from '../heading/SectionHeading';
 import SectionBoxWithImage from '../sectionBox/SectionBoxWithImage';
 import ccvImage from '../../assets/ccv-black-background.png';
+import ferretImage from '../../assets/ferret.png'
 
 class ExperienceSection extends Component {
     render() {
@@ -13,10 +14,21 @@ class ExperienceSection extends Component {
             <li>Developed an automation script for creating user accounts (see Projects)</li>
         </ul></div>
 
+        const cs111Description = <div><ul>
+            <li>Assisted teaching staff in creating course content and presentations for an introductory course of 200+ undergraduates</li>
+        </ul></div>
+
         return (
             <div id={"Experience"} className={"section"}>
                 <SectionHeading text="experience"/>
                 <div className={"Experience-box-container"}>
+                    <SectionBoxWithImage 
+                        title="cs111 Undergraduate Teaching Assistant"
+                        description={cs111Description}
+                        image={ferretImage}
+                        link={"http://cs.brown.edu/courses/csci0111/fall2021/"}
+                        alt={"cs111 icon"}
+                    />
                     <SectionBoxWithImage
                         title="CCV User Services Internship"
                         description={ccvDescription}

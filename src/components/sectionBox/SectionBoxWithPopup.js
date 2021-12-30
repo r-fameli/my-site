@@ -59,9 +59,14 @@ function SectionBoxWithPopup(props) {
                 onMouseEnter={() => setSuppressExpand(true)}
                 onMouseLeave={() => setSuppressExpand(false)}
                 >
+                    {props.repo ? 
                     <a href={props.repo} target="_blank" rel="noreferrer">
                         <button className="SectionBoxWithPopup-link-btn">repo</button>
                     </a>
+                    :
+                    <div></div>
+                    }
+                    
                 </div>
             </div>
             <div className={popupClass}>

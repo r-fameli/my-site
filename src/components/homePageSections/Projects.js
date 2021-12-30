@@ -5,10 +5,25 @@ import SectionBoxWithPopup from '../sectionBox/SectionBoxWithPopup';
 import SockyDemo from '../../assets/videos/socky-demo.mp4';
 import CCVDemo from '../../assets/videos/ccv-script-demo.mp4';
 import JournalTexterDemo from '../../assets/videos/journaltexter-demo.mp4';
+import TronDemo from '../../assets/videos/tron-demo.mp4'
 
 
 class ProjectsSection extends Component {
     render() {
+        const tronDescription = <div>
+            <ul>
+                <li>
+                    Worked with a partner and implemented the alpha-beta algorithm with a 
+                    depth and time cutoff and a relevant breadth first search-based Voronoi 
+                    heuristic within Python
+                </li>
+                <li>Iterated over several variations to develop a bot that could consistently
+                     beat a similar bot that also utilized an alpha-beta cutoff and Voronoi heuristic
+                      with a win rate above 70%
+                </li>
+            </ul>
+        </div>
+
         const ccvAutomationDescription = <div>
             <p>
                 Script created using Python and Selenium WebDriver that automatically opens a browser and adds
@@ -50,12 +65,20 @@ class ProjectsSection extends Component {
                 <h3 id={"Projects-subtitle"}>Click on project boxes to display demo</h3>
                 <div className={"Projects-box-container"}>
                     <SectionBoxWithPopup
+                        title="Tron Bot"
+                        description={tronDescription}
+                        className="Projects-box"
+                        textBoxStyle={textBoxStyle}
+                        demoVideo={TronDemo}
+                        videoId="1"
+                    />
+                    <SectionBoxWithPopup
                         title="CCV Automation Script"
                         description={ccvAutomationDescription}
                         className="Projects-box"
                         textBoxStyle={textBoxStyle}
                         demoVideo={CCVDemo}
-                        videoId="1"
+                        videoId="2"
                         repo={"https://github.com/r-fameli/ccv_automation"}
                     />
                     <SectionBoxWithPopup
@@ -64,7 +87,7 @@ class ProjectsSection extends Component {
                         className="Projects-box"
                         textBoxStyle={textBoxStyle}
                         demoVideo={JournalTexterDemo}
-                        videoId="2"
+                        videoId="3"
                         repo={"https://github.com/r-fameli/journaltexter"}
                     />
                     <SectionBoxWithPopup
@@ -73,7 +96,7 @@ class ProjectsSection extends Component {
                         className="Projects-box"
                         textBoxStyle={textBoxStyle}
                         demoVideo={SockyDemo}
-                        videoId="3"
+                        videoId="4"
                         repo={"https://github.com/r-fameli/Socky"}
                     />
                 </div>
