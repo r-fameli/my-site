@@ -1,3 +1,5 @@
+@import './SectionBox.css';
+
 :root {
     --popup-click-height:500px;
     --video-height:400px;
@@ -33,6 +35,7 @@
 .SectionBoxWithPopup-text h1 {
     margin-bottom: 10px;
     text-align:center;
+    font-size: var(--box-heading-size);
 }
 
 .SectionBoxWithPopup-text ul li {
@@ -147,7 +150,6 @@
     }
 
     .SectionBoxWithPopup-text h1 {
-        font-size: 20px;
         margin-bottom: 10px;
     }
 
@@ -162,11 +164,6 @@
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-    .SectionBoxWithPopup-text h1 {
-        font-size: 150%;
-        font-size: 25px;
-    }
-
     .SectionBoxWithPopup-tab {
         font-size:10px;
     }
@@ -174,7 +171,6 @@
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-    
     .SectionBoxWithPopup-text {
         font-size:15px;
     }
@@ -182,10 +178,6 @@
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-    .SectionBoxWithPopup-text h1 {
-        font-size: 175%;
-    }
-
     .SectionBoxWithPopup-text {
         font-size:20px;
     }

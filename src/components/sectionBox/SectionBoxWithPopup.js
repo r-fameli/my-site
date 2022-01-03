@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import '../../css/SectionBoxWithPopup.css';
+import '../../css/SectionBox.css';
 
 function SectionBoxWithPopup(props) {
     const videoId = "demo-video-" + props.videoId;
@@ -42,7 +43,6 @@ function SectionBoxWithPopup(props) {
             }
         }
     }
-
 
     return (
         <div

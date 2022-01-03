@@ -7,15 +7,19 @@ import ferretImage from '../../assets/ferret.png'
 
 class ExperienceSection extends Component {
     render() {
+        const cs111Description = <div><ul>
+            <li>Assisted teaching staff in creating course content and presentations for an introductory 
+                course of 200+ undergraduates</li>
+            <li>Taught students foundational concepts of functional programming and data manipulation at
+                lab sessions and teaching hours
+            </li>
+        </ul></div>
+
         const ccvDescription = <div><ul>
             <li>Serviced over 100 tickets for creating user accounts, accessing software, updating privileges, and more</li>
             <li>Worked in Linux/Unix to establish user groups and privileges for CCV’s supercomputer</li>
             <li>Updated documentation for software offered by CCV</li>
             <li>Developed an automation script for creating user accounts (see Projects)</li>
-        </ul></div>
-
-        const cs111Description = <div><ul>
-            <li>Assisted teaching staff in creating course content and presentations for an introductory course of 200+ undergraduates</li>
         </ul></div>
 
         return (
@@ -30,7 +34,7 @@ class ExperienceSection extends Component {
                         alt={"cs111 icon"}
                     />
                     <SectionBoxWithImage
-                        title="CCV User Services Internship"
+                        title="Center for Computation and Visualization Internship"
                         description={ccvDescription}
                         image={ccvImage}
                         link={"https://ccv.brown.edu/"}

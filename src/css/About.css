@@ -1,5 +1,14 @@
+:root {
+    --heading-size: 150%;
+    --large-font-size: 110%;
+    --large-photo-height: 40vh; 
+    --small-font-size: 100%;
+    --about-middle-margin:0px;
+    /* --about-photo-container-margin:50px; */
+}
+
 #About {
-    background-color: #f5c0c0; /* #F5C0C0 #FFB6B9 */
+    background-color: #f5c0c0; /* #F5C0C0 #FFB6B9 #FFD1DC #F4C2C2*/
     min-height: 100vh;
     display: flex;
     justify-content: center;
@@ -10,6 +19,8 @@
 .About-photo-container {
     margin-top: auto;
     margin-bottom:auto;
+    margin-right:var(--about-photo-container-margin);
+    margin-left:var(--about-photo-container-margin);
     display:flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
@@ -21,6 +32,7 @@
     height:40vh;
     border-radius: 50%;
     transition: box-shadow 0.5s;
+    margin-right: var(--about-middle-margin);
 }
 
 .About-photo:hover {
@@ -29,15 +41,39 @@
     /* blur size and spread size are optional (they default to 0) */
 }
 
-.About-text {
-    padding: 20px;
+.About-info {
+    margin-top: 3%;
     width:50%;
-    font-size: 150%;
+    font-size: var(--large-font-size);
+    margin-left: var(--about-middle-margin);
 }
 
-.About-text h1 {
-    font-size: 175%;
-    margin-bottom:10px;
+.About-info h1 {
+    font-size: var(--heading-size);
+    margin-bottom:0px;
+}
+
+#About-buttons {
+    display: flex;
+    justify-content: flex-end;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+#About-buttons>a {
+    text-decoration: underline;
+}
+
+
+#About-buttons button {
+    cursor:help;
+    background-color: #DD8374;
+    /* background-color: red; */
+    font-size: 20px;
+    height: 30px;
+    width: 150px;
+    border-radius: 10px;
+    border: black 1px solid;
 }
 
 /* Extra small devices (phones, 600px and down) */
@@ -46,11 +82,11 @@
         margin-top: 0px;
     }
 
-    .About-text {
+    .About-info {
         font-size: 80%;
     }
 
-    .About-text p {
+    .About-info p {
         font-size: 90%;
     }
 
@@ -61,28 +97,35 @@
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-    .About-text {
-        font-size: 100%;
+    .About-info {
+        padding-right: 0px;
+        font-size: var(--small-font-size);
+        margin-right: 20px;
     }
-
+    
+    :root {
+        --about-photo-container-margin:20px;
+    }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-    .About-text {
-        font-size: 150%;
+    .About-info {
+        font-size: var(--large-font-size);
+    }
+    :root {
+        --about-photo-container-margin:50px;
     }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-
     .About-photo {
         height:40vh;
     }
+    
 }
