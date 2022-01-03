@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.bae8a82b.css",
-    "main.js": "/static/js/main.e6cf5b96.js",
+    "main.css": "/static/css/main.64eabc67.css",
+    "main.js": "/static/js/main.c8edc695.js",
     "static/js/787.346528c1.chunk.js": "/static/js/787.346528c1.chunk.js",
     "static/media/socky-demo.mp4": "/static/media/socky-demo.340aa94b38376b625300.mp4",
     "static/media/ccv-script-demo.mp4": "/static/media/ccv-script-demo.b16ee131f6fb50c3f655.mp4",
@@ -10,6 +10,7 @@
     "static/media/footer-photo.png": "/static/media/footer-photo.ca297ff20ea71b693e0b.png",
     "static/media/prof-pic.png": "/static/media/prof-pic.58b9b88e97bf5ef0f61d.png",
     "static/media/ferret.png": "/static/media/ferret.91830cab80c005679e48.png",
+    "static/media/Resume - Riki Fameli.pdf": "/static/media/Resume - Riki Fameli.a19071fbf83aea4fd45b.pdf",
     "static/media/pyret-icon.png": "/static/media/pyret-icon.ccbb6434df83d330b1d3.png",
     "static/media/photoshop-icon.png": "/static/media/photoshop-icon.c783cec83649b1723e79.png",
     "static/media/indesign-icon.png": "/static/media/indesign-icon.ed406c3e94d24d827013.png",
@@ -29,12 +30,12 @@
     "static/media/figma-icon.svg": "/static/media/figma-icon.ea178496f42267ad7676be4d1db40e3d.svg",
     "index.html": "/index.html",
     "static/media/mail-icon1.svg": "/static/media/mail-icon1.89b7ba7251aa6604b797e5b964b91662.svg",
-    "main.bae8a82b.css.map": "/static/css/main.bae8a82b.css.map",
-    "main.e6cf5b96.js.map": "/static/js/main.e6cf5b96.js.map",
+    "main.64eabc67.css.map": "/static/css/main.64eabc67.css.map",
+    "main.c8edc695.js.map": "/static/js/main.c8edc695.js.map",
     "787.346528c1.chunk.js.map": "/static/js/787.346528c1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bae8a82b.css",
-    "static/js/main.e6cf5b96.js"
+    "static/css/main.64eabc67.css",
+    "static/js/main.c8edc695.js"
   ]
 }
