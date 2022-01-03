@@ -14,19 +14,18 @@ class AboutSection extends Component {
                         <p>
                         I'm a junior currently studying Computer Science at Brown University.
                         I originally came into Brown planning to pursue Public Health, but found myself excited and 
-                        intrigued by Computer Science after taking Harvard's popular online course, 
-                        <a href='https://cs50.harvard.edu/x/2020/syllabus/'> CS50</a>. Since then, I've delved into 
-                        web development, information technology, and artificial intelligence. Creative
-                        freedom and personal growth are greatly important to me, and this is evident in my 
-                        projects, my love for calisthenics, and my performances on aerial hoop with
+                        intrigued by Computer Science after taking Harvard's popular online course,
+                        <a href='https://cs50.harvard.edu/x/2020/syllabus/' target="_blank" rel="noreferrer">  CS50</a>. Since then, I've delved into web development, information technology, and artificial 
+                        intelligence. Creative freedom and personal growth are greatly important to me, and this 
+                        is evident in my projects, my love for calisthenics, and my performances on aerial hoop with
                         Brown Aerial Acrobatics. Feel free to look around at my projects and work experience down
                         below on desktop or on mobile!
                         </p>
                         <div id="About-buttons">
-                            <a href={Resume}>resume</a>
-                            <a href='https://github.com/r-fameli'>github</a>
-                            <a href='https://www.linkedin.com/in/riki-fameli/'>linkedin</a>
-                            <a href='mailto:rikifameli@gmail.com'>email</a>
+                            <a href={Resume} target="_blank" rel="noreferrer">resume</a>
+                            <a href='https://github.com/r-fameli' target="_blank" rel="noreferrer">github</a>
+                            <a href='https://www.linkedin.com/in/riki-fameli/' target="_blank" rel="noreferrer">linkedin</a>
+                            <a href='mailto:rikifameli@gmail.com' target="_blank" rel="noreferrer">email</a>
                         </div>
                         
                     </div>

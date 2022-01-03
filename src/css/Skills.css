@@ -10,8 +10,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    /* padding-top: 50px; */
-    padding-bottom: 50px;
+    padding-bottom: 30px;
 }
 
 /* Extra small devices (phones, 600px and down) */
@@ -31,6 +30,6 @@
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
     .Skills-heading {
-        font-size: 35px;
+        font-size: 25px;
     }
 }

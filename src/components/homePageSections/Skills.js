@@ -40,7 +40,7 @@ class SkillsSection extends Component {
                     <SkillIcon name="react" image={ReactIcon} link={"https://reactjs.org/"}/>
                     <SkillIcon name="git" image={GitIcon} link={"https://git-scm.com/"}/>
                     <SkillIcon name="pyret" image={PyretIcon} link={"https://www.pyret.org/"}/>
-                    <SkillIcon name="google sheets" image={SheetsIcon} link={"https://www.google.com/sheets/about/"}/>
+                    <SkillIcon name="sheets" image={SheetsIcon} link={"https://www.google.com/sheets/about/"}/>
                 </div>
                 <h1 className="Skills-heading">I've had practice with...</h1>
                 <div className="Skills-icons">

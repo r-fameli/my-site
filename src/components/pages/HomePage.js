@@ -9,6 +9,7 @@ import ColorfulBar from '../colorfulBar/ColorfulBar';
 
 
 function HomePage() {
+
   let sections = [
     { text: "about", color: "#FFB6B9", link: "#About-anchor"}, // darker pink: #FFB6B9, lighter pink: #F5C0C0
     { text: "experience", color: "#93B4CC", link: "#Experience"},

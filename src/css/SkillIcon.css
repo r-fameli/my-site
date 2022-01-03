@@ -1,22 +1,28 @@
+:root {
+    --icon-image-width: 70%;
+    --image-container-height: 50px;
+    /* --width-spacing: 10%; */
+}
+
 .SkillIcon {
     text-align: center;
-    width: 20%;
+    width: var(--width-spacing);
     margin-bottom: 5%;
     margin: 20px;
 }
 
-
+/* 
 .SkillIcon-image {
     min-width: 20%;
-    max-width:100%;
-}
+    max-width:80%;
+}  */
 
 .SkillIcon-image-container {
     display:flex;
-    margin: 5px;
+    margin: 2.5px;
     justify-content:center;
     align-content: center;
-    height: 100px;
+    height: var(--image-container-height);
 }
 
 .SkillIcon-name {
@@ -28,6 +34,9 @@
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+    :root { 
+        --width-space: 20%;
+    }
     .SkillIcon-name {
         font-size: 100%;
     }
@@ -49,6 +58,9 @@
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
+    :root {
+        --width-space: 5%;
+    }
     
 }
 
