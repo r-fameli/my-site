@@ -3,26 +3,26 @@ import '../../css/Skills.css'
 import SectionHeading from '../heading/SectionHeading';
 import SkillIcon from '../skillIcon/SkillIcon'
 
-import JavaIcon from '../../assets/icons/java-icon.png'
-import PythonIcon from '../../assets/icons/python-icon.png'
-import PyretIcon from '../../assets/icons/pyret-icon.png'
+import JavaIcon from '../../assets/icons/java-icon.svg'
+import PythonIcon from '../../assets/icons/python-icon.svg'
+import PyretIcon from '../../assets/icons/pyret-icon.svg'
 import HtmlIcon from '../../assets/icons/html-icon.svg'
 import CssIcon from '../../assets/icons/css-icon.svg'
-import SqliteIcon from '../../assets/icons/sqlite-icon-edited.svg'
-import ReactIcon from '../../assets/icons/react-icon-edited.svg'
+import SqliteIcon from '../../assets/icons/sqlite-icon.svg'
+import ReactIcon from '../../assets/icons/react-icon.svg'
 import SheetsIcon from '../../assets/icons/sheets-icon.svg'
-import GitIcon from '../../assets/icons/git-icon.png'
+import GitIcon from '../../assets/icons/git-icon.svg'
 
 import DjangoIcon from '../../assets/icons/django-icon.svg'
 import RIcon from '../../assets/icons/r-icon.svg'
 import FigmaIcon from '../../assets/icons/figma-icon.svg'
-import IllustratorIcon from '../../assets/icons/illustrator-icon.png'
-import IndesignIcon from '../../assets/icons/indesign-icon.png'
-import PhotoshopIcon from '../../assets/icons/photoshop-icon.png'
+import IllustratorIcon from '../../assets/icons/illustrator-icon.svg'
+import IndesignIcon from '../../assets/icons/indesign-icon.svg'
+import PhotoshopIcon from '../../assets/icons/photoshop-icon.svg'
 import ExcelIcon from '../../assets/icons/excel-icon.svg'
 
 import CIcon from '../../assets/icons/c-icon.svg'
-import PremiereIcon from '../../assets/icons/premiere-pro-icon.png'
+import PremiereIcon from '../../assets/icons/premiere-pro-icon.svg'
 
 
 class SkillsSection extends Component {

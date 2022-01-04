@@ -11,11 +11,11 @@
     margin: 20px;
 }
 
-/* 
+
 .SkillIcon-image {
     min-width: 20%;
     max-width:80%;
-}  */
+} 
 
 .SkillIcon-image-container {
     display:flex;
