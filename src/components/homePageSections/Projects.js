@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import '../../css/Projects.css'
 import SectionHeading from '../heading/SectionHeading';
-import SectionBoxWithPopup from '../sectionBox/SectionBoxWithPopup';
+import SectionBoxWithPopup from '../sectionBoxWithPopup/SectionBoxWithPopup';
 import SockyDemo from '../../assets/videos/socky-demo.mp4';
 import CCVDemo from '../../assets/videos/ccv-script-demo.mp4';
 import JournalTexterDemo from '../../assets/videos/journaltexter-demo.mp4';

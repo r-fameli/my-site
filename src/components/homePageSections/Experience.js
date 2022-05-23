@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import '../../css/Experience.css';
 import SectionHeading from '../heading/SectionHeading';
-import SectionBoxWithImage from '../sectionBox/SectionBoxWithImage';
+import SectionBoxWithImage from '../sectionBoxWithImage/SectionBoxWithImage';
 import ccvImage from '../../assets/ccv-black-background.png';
 import ferretImage from '../../assets/ferret.png'
 
