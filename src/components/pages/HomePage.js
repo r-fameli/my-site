@@ -1,5 +1,5 @@
 import React from 'react';
-import AboutSection from '../homePageSections/About';
+import AboutSection from '../homePageSections/About/About';
 import ExperienceSection from '../homePageSections/Experience';
 import ProjectsSection from '../homePageSections/Projects';
 import SkillsSection from '../homePageSections/Skills';
