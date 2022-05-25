@@ -16,8 +16,8 @@ const cs111Description = <div><ul>
     <li>Assisted staff in redesigning course website in HTML/CSS/JS/Figma to fit early 2000's theme for the spring 2022 semester 
         <ul>
             <li>Added draggable windows in Javascript and improved ease of access for student resources 
-                [<a href='http://cs.brown.edu/courses/csci0111/spring2022/' target="_blank" rel="noreferrer">Link</a>]
-                [<a href='https://github.com/rsimpsonn/spring2022' target="_blank" rel="noreferrer">Github</a>]
+                [<a className="blue-text" href='http://cs.brown.edu/courses/csci0111/spring2022/' target="_blank" rel="noreferrer">Link</a>]
+                [<a className="blue-text" href='https://github.com/rsimpsonn/spring2022' target="_blank" rel="noreferrer">Github</a>]
             </li> 
         </ul> 
         </li>
@@ -43,7 +43,7 @@ function ExperienceSection() {
                     title="Microsoft Software Engineering Intern"
                     description={microsoftDescription}
                     image={microsoftImage}
-                    link={"http://cs.brown.edu/courses/csci0111/fall2021/"}
+                    link={"https://www.microsoft.com/en-us"}
                     alt={"cs111 icon"}
                 />
                 <SectionBoxWithImage 
@@ -54,7 +54,7 @@ function ExperienceSection() {
                     alt={"cs111 icon"}
                 />
                 <SectionBoxWithImage
-                    title="Center for Computation and Visualization Internship"
+                    title="Center for Computation and Visualization Intern"
                     description={ccvDescription}
                     image={ccvImage}
                     link={"https://ccv.brown.edu/"}

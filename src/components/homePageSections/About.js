@@ -14,7 +14,7 @@ function AboutSection() {
                     I'm a junior currently studying Computer Science at Brown University.
                     I originally came into Brown planning to pursue Public Health, but found myself excited and 
                     intrigued by Computer Science after taking my first&nbsp;
-                    <a href='https://cs50.harvard.edu/x/2020/syllabus/' target="_blank" rel="noreferrer">
+                    <a className='no-underline blue-text' href='https://cs50.harvard.edu/x/2020/syllabus/' target="_blank" rel="noreferrer">
                     introductory computer science course
                     </a>
                     . Since then, I've dabbled in software development, IT, systems, and AI. Most of my experience is

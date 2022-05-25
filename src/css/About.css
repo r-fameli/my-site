@@ -54,6 +54,7 @@
 }
 
 .About-info a {
+    color: inherit;
     text-decoration: underline;
 }
 

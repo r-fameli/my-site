@@ -7,14 +7,28 @@ This is my personal portfolio site developed using Create React App. If you'd li
 
 You can see the JSX for each part of the website within src/components. Styling was done using vanilla CSS. The site is deployed through Github Pages and you can find the build files within the build branch of this repository. Also, this site is mobile-friendly, so feel free to test it out on your phone as well!
 
-If you have any questions or would like to get in contact, please shoot me an email at rikifameli@gmail.com! I will try and keep the site updated with my newest projects and will likely redesign the page sometime in the future.
-
-Here's the stuff for running locally through npm/yarn:
-
+If you have any questions or would like to get in contact, please shoot me an email at rikifameli@gmail.com! I will try and keep the site updated with my newest projects and will likely redesign parts of the site over time.
 
 ## Running Locally
 
+To run the server locally, run `npm start`
+
+Notably, I am using npm for this project and not yarn. I had some trouble switching between the two as I was developing, so the project is currently built using npm. Remnants of my `yarn`ing still remain in places.
+
+## Deploying
+(This is mostly for me, but in case it's helpful)
+
+To deploy:
+`npm run deploy`
+
+Go to github repo settings, find "Pages".  
+Set domain name to be `rikifameli.me`
+
+## Create React App Info
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+_The below was generated from Create React App:_
 
 In the project directory, you can run:
 

@@ -10,29 +10,18 @@
 }
 
 a {
-  color:inherit;
-  text-decoration: inherit;
+  /* color:darkblue */
+  text-decoration: none;
 }
 
-
-/*
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.blue-text {
+  color: darkblue !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-} */
+.no-underline {
+  text-decoration: none !important; 
+}
 
-/* 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-} */
+.underline {
+  text-decoration: underline;
+}
