@@ -13,7 +13,7 @@
 .SectionBoxWithImage:hover {
     box-shadow: 5px 10px #c5979e;
     margin-top:-1px;
-    margin-left:-0.5px;
+    margin-left:10px;
 }
 
 .SectionBoxWithImage-text {

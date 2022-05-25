@@ -53,6 +53,10 @@
     margin-bottom:0px;
 }
 
+.About-info a {
+    text-decoration: underline;
+}
+
 #About-buttons {
     display: flex;
     justify-content: flex-end;
