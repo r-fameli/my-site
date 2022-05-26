@@ -11,7 +11,7 @@ function AboutSection() {
                 <div className="About-info">
                     <h1>Hi! I'm Riki,</h1>
                     <p>
-                    I'm a junior currently studying Computer Science at Brown University.
+                    I'm a senior currently studying Computer Science at Brown University.
                     I originally came into Brown planning to pursue Public Health, but found myself excited and 
                     intrigued by Computer Science after taking my first&nbsp;
                     <a className='no-underline blue-text' href='https://cs50.harvard.edu/x/2020/syllabus/' target="_blank" rel="noreferrer">
