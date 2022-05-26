@@ -22,7 +22,7 @@ function AboutSection() {
                     make me a better programmer and engineer. Creative freedom and personal growth are greatly important to me, 
                     and this is evident in my projects, my love for calisthenics, and my performances and teaching roles
                     within Brown Aerial Acrobatics. Feel free to look around at my projects and work experience down
-                    below on desktop or on mobile!
+                    below!
                     </p>
                     <div id="About-buttons">
                         <a href={Resume} target="_blank" rel="noreferrer">resume</a>
