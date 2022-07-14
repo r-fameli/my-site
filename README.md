@@ -3,7 +3,7 @@
 
 ## Hello!
 
-This is my personal portfolio site developed using Create React App. If you'd like to see the actual website, visit [rikifameli.me](https://rikifameli.me).
+This is my personal portfolio site developed using Create React App. If you'd like to see the actual website, visit [rikifameli.info](https://rikifameli.info).
 
 You can see the JSX for each part of the website within src/components. Styling was done using vanilla CSS. The site is deployed through Github Pages and you can find the build files within the build branch of this repository. Also, this site is mobile-friendly, so feel free to test it out on your phone as well!
 
